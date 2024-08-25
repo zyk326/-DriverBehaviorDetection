@@ -1,0 +1,12 @@
+<component name="libraryTable">
+  <library name="x64">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../conf/opencv14/opencv/build/x64" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$PROJECT_DIR$/../conf/opencv14/opencv/build/java/x64" />
+    </NATIVE>
+    <SOURCES />
+  </library>
+</component>

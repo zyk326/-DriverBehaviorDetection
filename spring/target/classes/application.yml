@@ -1,0 +1,31 @@
+
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .jsp
+
+  application:
+    name: viewdriver
+
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/graduationdesign?characterEncoding=utf8&useSSL=false&serverTimezone=UTC&rewriteBatchedStatements=true
+    username: root
+    password: 444
+
+server:
+  port: 9090
+  tomcat:
+    max-swallow-size: -1
+  max-http-header-size: 2MB
+  servlet:
+    context-path: /viewdriver
+
+    jsp:
+      init-parameters:
+        development: true
+
+mybatis:
+  mapper-locations: classpath:com/bar/design/dao/*.xml
+  type-aliases-package: com.bar.fuck.entity
