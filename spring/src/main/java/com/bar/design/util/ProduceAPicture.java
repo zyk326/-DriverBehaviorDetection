@@ -21,12 +21,20 @@ public class ProduceAPicture {
      */
     static {
         System.loadLibrary(Core.NATIVE_LIBRARY_NAME);
-        faceDetector = new CascadeClassifier("F:\\course-design-grade1\\spring\\src\\main\\resources\\static\\k\\haarcascade_mcs_mouth.xml");
-        f0 = new CascadeClassifier("F:\\course-design-grade1\\spring\\src\\main\\resources\\static\\k\\smoke.xml");
-        f1 = new CascadeClassifier("F:\\course-design-grade1\\spring\\src\\main\\resources\\static\\k\\haarcascade_mcs_mouth.xml");
-        f2 = new CascadeClassifier("F:\\course-design-grade1\\spring\\src\\main\\resources\\static\\k\\sleep.xml");
-        f3 = new CascadeClassifier("F:\\course-design-grade1\\spring\\src\\main\\resources\\static\\k\\phone.xml");
-        f4 = new CascadeClassifier("F:\\course-design-grade1\\spring\\src\\main\\resources\\static\\k\\haarcascade_frontalface_alt.xml");
+//        faceDetector = new CascadeClassifier("..\\..\\..\\resources\\static\\detector\\haarcascade_mcs_mouth.xml");
+//        f0 = new CascadeClassifier("..\\..\\..\\resources\\static\\detector\\smoke.xml");
+//        f1 = new CascadeClassifier("..\\..\\..\\resources\\static\\detector\\haarcascade_mcs_mouth.xml");
+//        f2 = new CascadeClassifier("..\\..\\..\\resources\\static\\detector\\sleep.xml");
+//        f3 = new CascadeClassifier("..\\..\\..\\resources\\static\\detector\\phone.xml");
+//        f4 = new CascadeClassifier("..\\..\\..\\resources\\static\\detector\\haarcascade_frontalface_alt.xml");
+
+
+        faceDetector = new CascadeClassifier("C:\\Users\\86955\\Desktop\\tttt\\spring\\src\\main\\resources\\static\\detector\\haarcascade_frontalface_alt.xml");
+        f0 = new CascadeClassifier("C:\\Users\\86955\\Desktop\\tttt\\spring\\src\\main\\resources\\static\\detector\\smoke.xml");
+        f1 = new CascadeClassifier("C:\\Users\\86955\\Desktop\\tttt\\spring\\src\\main\\resources\\static\\detector\\haarcascade_mcs_mouth.xml");
+        f2 = new CascadeClassifier("C:\\Users\\86955\\Desktop\\tttt\\spring\\src\\main\\resources\\static\\detector\\sleep.xml");
+        f3 = new CascadeClassifier("C:\\Users\\86955\\Desktop\\tttt\\spring\\src\\main\\resources\\static\\detector\\phone.xml");
+        f4 = new CascadeClassifier("C:\\Users\\86955\\Desktop\\tttt\\spring\\src\\main\\resources\\static\\detector\\haarcascade_frontalface_alt.xml");
     }
 
     /**

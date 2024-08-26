@@ -44,7 +44,7 @@ node安装和配置。
 >>前端base64转绘图格式
 >>vue发post请求，用axios，先安装.妈的没安装。在项目路径安装。
 
-# 项目结构有很大问题
+# 项目结构
 * 跟做项目，spring boot + Vue
 * 先学会搭文件树框架（其中首先学Vue的项目框架）
 * nodejs装好，用来使用npm
@@ -67,7 +67,7 @@ node安装和配置。
 
 
 
-# 课程设计配置：
+# 配置：
 1. 创建VUE项目，改自启浏览器，改serve路径，加element-plus包，加axios包，加request配置，加vue.config.js配置。
 2. 创建spring项目，加opencv库。
 
@@ -92,7 +92,7 @@ opencv_traincascade.exe -data F:\conf\opencv14\trans\opencv_bin\xml_file -vec F:
 
 # 使用自己采集的数据集训练模型
 
-#放弃java做后台,用django
+用django
 命令流程：
 pip install -i https://pypi.douban.com/simple/ django --user  
 C:\Users\Bar.Z\AppData\Roaming\Python\Python38\Scripts  加环境变量  
@@ -102,5 +102,3 @@ python manage.py createsuperuser : userid :0 password :123456
 python manage.py startapp polls
 
 <html> add  {% csrf_token %}
-
-# 什么垃圾django，去他妈的吧。
